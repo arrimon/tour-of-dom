@@ -1,0 +1,10 @@
+#food-title {
+    color: brown;
+}
+.section-card{
+    background-color: WhiteSmoke;
+    margin: 30px 5px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid lightpink
+}

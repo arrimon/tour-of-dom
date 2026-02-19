@@ -1,0 +1,19 @@
+// This 5 topics should to mastary 
+
+// For CSS search
+document.getElementById(),
+document.getElementsByClassName(),
+document.getElementsByTagName(),
+
+// For CSS search
+document.querySelector(), 
+document.querySelectorAll()
+
+getAttribute
+setAttribute
+innerText
+innerHTML
+
+
+createElement
+appendChild
