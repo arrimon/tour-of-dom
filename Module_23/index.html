@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events</title>
+</head>
+<body>
+    <h2>Dom Events</h2>
+    <!-- OPtion 1 for Event Handler -->
+    <button onclick="console.log(7)">Click me</button>
+    <button onclick="console.log(10)">Click me</button>
+    <button onclick="console.log('Rimon')">Click me</button>
+    <input type="text">
+    <br>
+    <hr>
+    <!-- Option 2  for Event Handler -->
+    <button onclick="makeYellow()">Make BG Beige</button>
+    <button onclick="makeCadetBlue()">Make BG CadetBlue</button>
+    <button onclick="makeLavender()">Make BG Lavender</button>
+    <button onclick="makeLightBlue()">Make BG Light Blue</button>
+    <br>
+    <br>
+
+    <!-- Option 3 for Event Handler(Get element by id then set onclick to a function) -->
+    <button id="btn-bg-blue">Make Blue</button>
+
+    <!-- Option 3.1 for Event Handler(Get element by id then set onclick to a function) -->
+    <button id="btn-bg-purple">Make Purple</button>
+
+
+    <!-- Option 4: addEventListener -->
+    <button id="btn-bg-green">Make Green</button>
+    <button id="btn-bg-gold">Make Gold</button>
+    
+    <script src="./js/event.js"></script>
+</body>
+</html>
