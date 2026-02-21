@@ -1,0 +1,65 @@
+/* Clean, centered layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+main {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* --- THE PROPAGATION ZONES --- */
+
+/* Parent (Green) */
+#parent {
+    background-color: #d1fae5;
+    border: 3px solid #10b981;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Form (Blue) */
+#form {
+    background-color: #dbeafe;
+    border: 3px solid #3b82f6;
+    padding: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Button (Purple) */
+#btn {
+    background-color: #8b5cf6;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+#btn:active {
+    transform: scale(0.95);
+}
+
+/* Visual Labeling */
+#parent::before { content: "PARENT DIV"; display: block; font-weight: bold; margin-bottom: 10px; color: #065f46; }
+#form::before { content: "FORM"; display: block; font-weight: bold; margin-bottom: 10px; color: #1e40af; }
